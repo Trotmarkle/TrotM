@@ -1,9 +1,9 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Trot Markle CV
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Trot Markle
+Bookkeeper, BYUI student.
 
 <div id="webaddress">
 <a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
@@ -13,77 +13,49 @@ Physicist, Mathematician, Cambridge professor.
 
 ## Currently
 
-Standing on the shoulders of giants
+Studying Accounting and programming at BYUI
 
 ### Specialized in
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+Tax accounting and programming
 
 
 ### Research interests
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+Building skills in Tax accounting and how to use databases.
 
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+`2022-current`
+__Brigham Young University - Idaho__
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+`2019-2020`
+__Lonestar Community College__
 
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
-
-
+- Honors College Fellow
 
 ## Awards
 
-`2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France
-
-
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+`2017`
+Boy Scouts of America
+Eagle
 
 
 ## Occupation
 
-`1600`
-__Royal Mint__, London
+`2023-current`
+__BYUI_, Rexburg
 
-- Warden
-- Minted coins
+-Grounds Crew Member
+   -Maintain and repair sprinkler systems
 
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+`2023-current`
+__Lawless LLC__
+-Bookkeeper
 
 
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: September 2024 -->
