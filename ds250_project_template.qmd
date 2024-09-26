@@ -1,0 +1,102 @@
+---
+title: "Client Report - Environment on Growth"
+subtitle: "Course DS 250"
+author: "Trot Markle"
+format:
+  html:
+    self-contained: true
+    page-layout: full
+    title-block-banner: true
+    toc: true
+    toc-depth: 3
+    toc-location: body
+    number-sections: false
+    html-math-method: katex
+    code-fold: true
+    code-summary: "Show the code"
+    code-overflow: wrap
+    code-copy: hover
+    code-tools:
+        source: false
+        toggle: true
+        caption: See code
+execute: 
+  warning: false
+    
+---
+```{python}
+import pandas as pd
+from palmerpenguins import load_penguins
+from lets_plot import *
+
+LetsPlot.setup_html()
+```
+
+
+## Elevator pitch
+The antartic environment of the Biscoe island has caused the penguins from Biscoe to be materially larger than the penguins from Torgensen and Dream.
+
+```{python}
+#| label: project-data
+#| code-summary: Read and format project data
+
+# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html
+import pandas as pd
+from palmerpenguins import load_penguins
+penguins = load_penguins()
+
+
+```
+
+__Highlight the Questions and Tasks__
+
+## Question|Task 1
+
+Finish the Course Setup, and post any questions to getting your environment working smoothly in your course Slack channel
+
+
+
+
+```{python}
+#| label: Affect of environment on Penguins
+#| code-summary: Compares the flipper length and body of penguins from different islands.
+#| fig-cap: "Environment and growth"
+#| fig-align: center
+# Include and execute your code here
+
+# Load the penguins dataset
+penguins = load_penguins()
+
+LetsPlot.setup_html()
+(ggplot(
+  data = penguins,
+  mapping = aes(x = "flipper_length_mm", y = "body_mass_g", color = "island")
+) +
+### Body mass and flipper length are compared variables, Island of origin is plotted to find relationship between environment and size.
+  geom_point() +
+  geom_smooth(se = False))
+```
+
+The penguins on Biscoe were signifigantly larger than the penguins from Tergensen and Dream.
+
+## Question|Task 2
+
+Recreate the example chart from PY4DS: CH2 Data Visualization of the textbook.
+
+Flipper size and body mass are connected to the environment that the penguins have to endure. 
+```{python}
+#| label: Affect of Islands on Flipper and body mass
+#| code-summary: Islands, Flipper, Body Mass
+#| tbl-cap: "Affect of Islands on Flipper and body mass"
+#| tbl-cap-location: top
+# Include and execute your code here
+    
+import pandas as pd
+from palmerpenguins import load_penguins
+penguins = load_penguins()
+demonstrate = ['island', 'flipper_length_mm', 'body_mass_g']
+
+filtered_penguins = penguins[demonstrate]
+print(filtered_penguins)
+
+```
