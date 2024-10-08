@@ -35,67 +35,67 @@
     "text": "2023-current __BYUI_, Rexburg\n-Grounds Crew Member -Maintain and repair sprinkler systems\n2023-current Lawless LLC -Bookkeeper"
   },
   {
-    "objectID": "250_projects.html",
-    "href": "250_projects.html",
-    "title": "DS250 Projects",
+    "objectID": "ds250_project_template.html",
+    "href": "ds250_project_template.html",
+    "title": "Client Report - Environment on Growth",
     "section": "",
-    "text": "Project 0 - Introduction\nProject 1 - What’s in a Name\nProject 2 - Late Flights and Missing Data (JSON)\nProject 3 - Finding Relationships in Baseball\nProject 4 - Can you Predict That?\nProject 5 - The War with StarWars\nProject 6 - Git Your Portfolio Online",
-    "crumbs": [
-      "DS250 Projects"
-    ]
+    "text": "Show the code\nimport pandas as pd\nfrom palmerpenguins import load_penguins\nfrom lets_plot import *\n\nLetsPlot.setup_html()"
   },
   {
-    "objectID": "250_projects.html#repo-for-all-my-projects",
-    "href": "250_projects.html#repo-for-all-my-projects",
-    "title": "DS250 Projects",
-    "section": "",
-    "text": "Project 0 - Introduction\nProject 1 - What’s in a Name\nProject 2 - Late Flights and Missing Data (JSON)\nProject 3 - Finding Relationships in Baseball\nProject 4 - Can you Predict That?\nProject 5 - The War with StarWars\nProject 6 - Git Your Portfolio Online",
-    "crumbs": [
-      "DS250 Projects"
-    ]
+    "objectID": "ds250_project_template.html#elevator-pitch",
+    "href": "ds250_project_template.html#elevator-pitch",
+    "title": "Client Report - Environment on Growth",
+    "section": "Elevator pitch",
+    "text": "Elevator pitch\nThe antartic environment of the Biscoe island has caused the penguins from Biscoe to be materially larger than the penguins from Torgensen and Dream.\n\n\nRead and format project data\n# Learn morea about Code Cells: https://quarto.org/docs/reference/cells/cells-jupyter.html\n\ndf = pd.read_csv(\"https://raw.githubusercontent.com/byuidatascience/data4python4ds/master/data-raw/mpg/mpg.csv\")\n\n\nHighlight the Questions and Tasks The penguins on Biscoe were signifigantly larger than the penguins from Tergensen and Dream."
   },
   {
-    "objectID": "250_Projects/project6.html",
-    "href": "250_Projects/project6.html",
+    "objectID": "ds250_project_template.html#questiontask-1",
+    "href": "ds250_project_template.html#questiontask-1",
+    "title": "Client Report - Environment on Growth",
+    "section": "Question|Task 1",
+    "text": "Question|Task 1\nRecreate the example chart from PY4DS: CH2 Data Visualization of the textbook.\nThe freezing temperatures of the artic environment on Briscoe island has forced the Penguins to grow larger to produce enough heat and hunt enough to survive their harsh environment. Briscoe island enabled and forced the penguins to develop the largest flippers and have the largest body mass in order to adapt.\n\n\nCompares the flipper length and body of penguins from different islands.\n# Include and execute your code here\n\n# Load the penguins dataset\npenguins = load_penguins()\n\nLetsPlot.setup_html()\n(ggplot(\n  data = penguins,\n  mapping = aes(x = \"flipper_length_mm\", y = \"body_mass_g\", color = \"island\")\n) +\n### Body mass and flipper length are compared variables, Island of origin is plotted to find relationship between environment and size.\n  geom_point() +\n  geom_smooth(se = False))\n\n\n\n            \n            \n            \nEnvironment and growth"
+  },
+  {
+    "objectID": "ds250_project_template.html#questiontask-2",
+    "href": "ds250_project_template.html#questiontask-2",
+    "title": "Client Report - Environment on Growth",
+    "section": "Question|Task 2",
+    "text": "Question|Task 2\nInclude the table created from PY4DS: CH2 Data Visualization used to create the above chart.\nBelow is the raw data that the chart above was produced from.\n\n\nIslands, Flipper, Body Mass\n# Include and execute your code here\n    \nimport pandas as pd\nfrom palmerpenguins import load_penguins\npenguins = load_penguins()\ndemonstrate = ['island', 'flipper_length_mm', 'body_mass_g']\n\nprint(penguins)\n\n\n       species     island  bill_length_mm  bill_depth_mm  flipper_length_mm  \\\n0       Adelie  Torgersen            39.1           18.7              181.0   \n1       Adelie  Torgersen            39.5           17.4              186.0   \n2       Adelie  Torgersen            40.3           18.0              195.0   \n3       Adelie  Torgersen             NaN            NaN                NaN   \n4       Adelie  Torgersen            36.7           19.3              193.0   \n..         ...        ...             ...            ...                ...   \n339  Chinstrap      Dream            55.8           19.8              207.0   \n340  Chinstrap      Dream            43.5           18.1              202.0   \n341  Chinstrap      Dream            49.6           18.2              193.0   \n342  Chinstrap      Dream            50.8           19.0              210.0   \n343  Chinstrap      Dream            50.2           18.7              198.0   \n\n     body_mass_g     sex  year  \n0         3750.0    male  2007  \n1         3800.0  female  2007  \n2         3250.0  female  2007  \n3            NaN     NaN  2007  \n4         3450.0  female  2007  \n..           ...     ...   ...  \n339       4000.0    male  2009  \n340       3400.0  female  2009  \n341       3775.0    male  2009  \n342       4100.0    male  2009  \n343       3775.0  female  2009  \n\n[344 rows x 8 columns]"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "index.html#title-2-header",
+    "href": "index.html#title-2-header",
+    "title": "about me",
+    "section": "",
+    "text": "MarkDown Basics"
+  },
+  {
+    "objectID": "250_Projects/project3.html",
+    "href": "250_Projects/project3.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
       "DS250 Projects",
-      "Project 6"
+      "Project 3"
     ]
   },
   {
-    "objectID": "250_Projects/project4.html",
-    "href": "250_Projects/project4.html",
+    "objectID": "250_Projects/project1.html",
+    "href": "250_Projects/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
       "DS250 Projects",
-      "Project 4"
-    ]
-  },
-  {
-    "objectID": "250_Projects/project5.html",
-    "href": "250_Projects/project5.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "DS250 Projects",
-      "Project 5"
-    ]
-  },
-  {
-    "objectID": "250_Projects/project2.html",
-    "href": "250_Projects/project2.html",
-    "title": "Client Report - [Insert Project Title]",
-    "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "DS250 Projects",
-      "Project 2"
+      "Project 1"
     ]
   },
   {
@@ -154,40 +154,68 @@
     ]
   },
   {
-    "objectID": "250_Projects/project1.html",
-    "href": "250_Projects/project1.html",
+    "objectID": "250_Projects/project2.html",
+    "href": "250_Projects/project2.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
       "DS250 Projects",
-      "Project 1"
+      "Project 2"
     ]
   },
   {
-    "objectID": "250_Projects/project3.html",
-    "href": "250_Projects/project3.html",
+    "objectID": "250_Projects/project5.html",
+    "href": "250_Projects/project5.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
     "text": "Paste in a template\n\n\n\n\n Back to top",
     "crumbs": [
       "DS250 Projects",
-      "Project 3"
+      "Project 5"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "about me",
+    "objectID": "250_Projects/project4.html",
+    "href": "250_Projects/project4.html",
+    "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "MarkDown Basics"
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 4"
+    ]
   },
   {
-    "objectID": "index.html#title-2-header",
-    "href": "index.html#title-2-header",
-    "title": "about me",
+    "objectID": "250_Projects/project6.html",
+    "href": "250_Projects/project6.html",
+    "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "MarkDown Basics"
+    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "crumbs": [
+      "DS250 Projects",
+      "Project 6"
+    ]
+  },
+  {
+    "objectID": "250_projects.html",
+    "href": "250_projects.html",
+    "title": "DS250 Projects",
+    "section": "",
+    "text": "Project 0 - Introduction\nProject 1 - What’s in a Name\nProject 2 - Late Flights and Missing Data (JSON)\nProject 3 - Finding Relationships in Baseball\nProject 4 - Can you Predict That?\nProject 5 - The War with StarWars\nProject 6 - Git Your Portfolio Online",
+    "crumbs": [
+      "DS250 Projects"
+    ]
+  },
+  {
+    "objectID": "250_projects.html#repo-for-all-my-projects",
+    "href": "250_projects.html#repo-for-all-my-projects",
+    "title": "DS250 Projects",
+    "section": "",
+    "text": "Project 0 - Introduction\nProject 1 - What’s in a Name\nProject 2 - Late Flights and Missing Data (JSON)\nProject 3 - Finding Relationships in Baseball\nProject 4 - Can you Predict That?\nProject 5 - The War with StarWars\nProject 6 - Git Your Portfolio Online",
+    "crumbs": [
+      "DS250 Projects"
+    ]
   },
   {
     "objectID": "Templates/DS250_Template.html",
